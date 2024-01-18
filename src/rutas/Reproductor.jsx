@@ -17,7 +17,7 @@ const Reproductor = () => {
     frameBorder="0"
     scrolling="no"
     allowFullScreen=""
-    onload="$('.iframe-loading').css('background-image', 'none');" sandbox="allow-same-origin allow-scripts"
+    onLoad="$('.iframe-loading').css('background-image', 'none');" sandbox="allow-same-origin allow-scripts"
 >
 </iframe>
   )
