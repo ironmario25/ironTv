@@ -1,10 +1,22 @@
 import React from 'react'
 import LogoCanal from './LogoCanal'
 import { useNavigate } from 'react-router-dom';
+import { isMobile } from 'react-device-detect';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const ListarCanales = ({vector}) => {
     const vectorCanales = vector
     let navigate = useNavigate();
+
+    const notify = () => toast('dispositivo movil detectado: recuerde desactivar los datos!!!');
+
+    if (isMobile) {
+        notify()
+        console.log("si es mobile");
+      } 
 
     function hizoClick(e){
         console.log(e.target.id)
@@ -27,6 +39,7 @@ const ListarCanales = ({vector}) => {
     }
 
     return <>
+    <ToastContainer />
         {listar()}
     </>
 }
