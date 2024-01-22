@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react'
 import LogoCanal from './LogoCanal'
 import { useNavigate } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
@@ -13,10 +14,12 @@ const ListarCanales = ({vector}) => {
 
     const notify = () => toast('dispositivo movil detectado: recuerde desactivar los datos!!!');
 
-    if (isMobile) {
-        notify()
-        console.log("si es mobile");
-      } 
+      useEffect(() => {
+        if (isMobile) {
+            notify()
+            console.log("si es mobile");
+          } 
+      }, []);
 
     function hizoClick(e){
         console.log(e.target.id)
