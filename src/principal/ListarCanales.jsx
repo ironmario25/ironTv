@@ -35,7 +35,7 @@ const ListarCanales = ({vector}) => {
         return vectorCanales.map((canal)=>{
            return (
            <LogoCanal key={canal.id}>
-            <img id={canal.id} src={canal.imagen} height="100" width="150" onClick={(e)=>{hizoClick(e)}}></img>
+            <img id={canal.id} src={canal.imagen} height="100" width="150" border="10" onClick={(e)=>{hizoClick(e)}}></img>
            </LogoCanal>
            )
         })
@@ -44,7 +44,7 @@ const ListarCanales = ({vector}) => {
     return <>
     <div className='fondo'>
     <ToastContainer />
-        {listar()}
+        {listar()}  
     </div>
     
     </>
