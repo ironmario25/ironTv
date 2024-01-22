@@ -3,8 +3,8 @@ import LogoCanal from './LogoCanal'
 import { useNavigate } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
-
+import 'react-toastify/dist/ReactToastify.css';
+import './ListarCanales.css'
 
 
 const ListarCanales = ({vector}) => {
@@ -39,8 +39,11 @@ const ListarCanales = ({vector}) => {
     }
 
     return <>
+    <div className='fondo'>
     <ToastContainer />
         {listar()}
+    </div>
+    
     </>
 }
 

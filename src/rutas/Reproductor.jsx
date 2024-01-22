@@ -9,8 +9,8 @@ const Reproductor = () => {
     allow="encrypted-media"
     className='pantallaCompleta'
     src={state.userData.link}
-    width="100%"
-    height="100%"
+    width="100vw"
+    height="100vh"
     title={state.userData.nombre}
     id={state.userData.id}
     name="iframe"
