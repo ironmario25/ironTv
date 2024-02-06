@@ -93,33 +93,70 @@ const canales = () => {
         },
         {
             id: 24,
+            nombre: 'hbo +',
+            link: "https://tv-libre.com/html/r/?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLmxpYnJlZnV0Ym9sdHYuY29tL21wZGsyLmh0bWw/Z2V0PWFIUjBjSE02THk5c1lYUmhiWFp2YzJ4cGRtVmpiR0Z5YjNacFpHVnZMbUZyWVcxaGFYcGxaQzV1WlhRdlEyOXVkR1Z1ZEM5RVFWTklYMFJCVTBoZlJrc3ZUR2wyWlM5RGFHRnVibVZzS0VoQ1QxOVFURlZUWDBoRVgwMVlLUzl0WVc1cFptVnpkQzV0Y0dRPSZrZXk9T0dNMlpUa3pNMll6TVRVMU56aGlOVEV4TVdVeU1qa3labUZtT1RsbU56QT0ma2V5Mj1NelEwTm1Zek5UazBOemsxTjJRek56QXhZelE1Wm1ReE56STVaakl4Tm1ZPQ==",
+            imagen:'https://i.ytimg.com/vi/p9MctNEcPKs/maxresdefault.jpg'
+        },
+        {
+            id: 25,
+            nombre: 'hbo family',
+            link: 'https://tv-libre.com/html/r/?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLmxpYnJlZnV0Ym9sdHYuY29tL21wZGsyLmh0bWw/Z2V0PWFIUjBjSE02THk5c1lYUmhiWFp2YzJ4cGRtVmpiR0Z5YjNacFpHVnZMbUZyWVcxaGFYcGxaQzV1WlhRdlEyOXVkR1Z1ZEM5RVFWTklYMFJCVTBoZlJrc3ZUR2wyWlM5RGFHRnVibVZzS0VoQ1QxOUdRVTFKVEZsZlNFUXBMMjFoYm1sbVpYTjBMbTF3WkE9PSZrZXk9TVdRM1pXUXpPREUxWTJKaFpUTTNPRFZqWldKbVpUWmlOREptTTJNMk5UVT0ma2V5Mj1aVEV5TnpBeE1URXdPR0kyWWpWaU9UWTBObUV3WkdWaU0yRTFaRGN4WW1RPQ==',
+            imagen:'https://2.bp.blogspot.com/-fWMY8sHAuHs/TqB9xKDM_-I/AAAAAAAAQh0/N-fI53l9A84/s1600/hbo-family.png'
+        },
+        {
+            id: 26,
+            nombre: 'hbo xtreme',
+            link: 'https://tv-libre.com/html/r/?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLmxpYnJlZnV0Ym9sdHYuY29tL21wZGsyLmh0bWw/Z2V0PWFIUjBjSE02THk5c1lYUmhiWFp2YzJ4cGRtVmpiR0Z5YjNacFpHVnZMbUZyWVcxaGFYcGxaQzV1WlhRdlEyOXVkR1Z1ZEM5RVFWTklYMFJCVTBoZlJrc3ZUR2wyWlM5RGFHRnVibVZzS0VoQ1QxOVlWRkpGVFVWZlNFUmZUVmdwTDIxaGJtbG1aWE4wTG0xd1pBPT0ma2V5PU0yUmtOVGxqTVdNNU16WTFPREU0TVRneU5qSTVNVFJoWXpSa05XRXlNamc9JmtleTI9TjJSaU56VTBOV00yTVRreFlqTmtZamMzWkRjNVl6UmtPRFUwTmpWbE5EZz0=',
+            imagen: 'https://seeklogo.com/images/H/hbo-xtreme-logo-D424105400-seeklogo.com.png'
+        },
+        {
+            id: 27,
+            nombre:'hbo pop',
+            link:'https://tv-libre.com/html/r/?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLmxpYnJlZnV0Ym9sdHYuY29tL21wZGsyLmh0bWw/Z2V0PWFIUjBjSE02THk5c1lYUmhiWFp2YzJ4cGRtVmpiR0Z5YjNacFpHVnZMbUZyWVcxaGFYcGxaQzV1WlhRdlEyOXVkR1Z1ZEM5RVFWTklYMFJCVTBoZlJrc3ZUR2wyWlM5RGFHRnVibVZzS0VoQ1QxOVFUMUJmU0VSZlRWZ3BMMjFoYm1sbVpYTjBMbTF3WkE9PSZrZXk9TXprME16TTFNRGs1WVRabU1HVTJaalF6T1RBMFpEaGtNbVJqTldFeU0yWT0ma2V5Mj1ZakUwWTJVeVpqWXpPRFEwTkdJeE5HVXhaV1k0TUdSaE56QmhNV0kzWW1VPQ==',
+            imagen: 'https://www.vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/logos/logo-canal-hbo-pop-252x252.png'
+        },
+        {
+            id: 28,
+            nombre:'hbo signature',
+            link:'https://tv-libre.com/html/r/?r=aHR0cHM6Ly9jbGFyb3ZpZGVvLmxpYnJlZnV0Ym9sdHYuY29tL21wZGsyLmh0bWw/Z2V0PWFIUjBjSE02THk5c1lYUmhiWFp2YzJ4cGRtVmpiR0Z5YjNacFpHVnZMbUZyWVcxaGFYcGxaQzV1WlhRdlEyOXVkR1Z1ZEM5RVFWTklYMFJCVTBoZlJrc3ZUR2wyWlM5RGFHRnVibVZzS0VoQ1QxOVRTVWRPUVZSVlVrVmZTRVFwTDIxaGJtbG1aWE4wTG0xd1pBPT0ma2V5PVpUYzVNR1F5Wm1Sa01XTmlabU16TVdWak1EZGpPV1UyWkdVeFl6VTNaamc9JmtleTI9T1dReVpXUXpZbUZrWkRrM05qQTNaVFJoWlRCbU9EZGpNRGM0WTJSaE1qYz0=',
+            imagen:'https://th.bing.com/th/id/R.a66b34a7cbff13352a8de381509869a0?rik=Hq4GcppyZ7lr%2bw&riu=http%3a%2f%2fi.imgur.com%2fXEd15.jpg&ehk=AfwT3vVyKtshcWZpzXb2swL%2bLdZTD4cmHlVuvNajPNA%3d&risl=&pid=ImgRaw&r=0'
+        },
+        {
+            id: 29,
             nombre: 'universal tv',
             link: 'https://tv-libre.com/html/r/?r=L2h0bWwvZmwvP2dldD1WVzVwZG1WeWMyRnNYME5vWVc1dVpXeGZTRVE9',
             imagen: 'https://1.bp.blogspot.com/-kbZqCtfRbLI/X9TtqaHORcI/AAAAAAAA7nQ/ZeD4CLH7dWsYLYrmwBYScxQ0uMA7hl1mwCLcBGAsYHQ/s1280/UNIVERSAL-TV-2018.png'
         },
         {
-            id: 25,
+            id: 30,
             nombre: 'gran hermano',
             link: 'https://tv-libre.com/en-vivo/gran-hermano/embed.html?r=embed5',
             imagen: 'https://th.bing.com/th/id/OIP.kKcCHWu9hXWsNtElTRav_QAAAA?rs=1&pid=ImgDetMain'
         },
         {
-            id: 26,
+            id: 31,
             nombre: 'cronica tv',
             link: 'https://tv-libre.com/html/fl/?get=Q3JvbmljYVRW',
             imagen: 'https://th.bing.com/th/id/OIP.G8niLAqURCMUfkpClIfkNQHaEW?rs=1&pid=ImgDetMain'
         },
         {
-            id:27,
+            id:32,
             nombre:'a24',
             link:'https://tv-libre.com/html/fl/?get=QW1lcmljYTI0',
             imagen: 'https://th.bing.com/th/id/OIP.qgnj6ylLCy2jxp9XpjJgcgHaIa?rs=1&pid=ImgDetMain',
         },
         {
-            id:28,
+            id:33,
             nombre: 'fx',
             link: 'https://tv-libre.com/html/dtv/?id=1129',
             imagen: 'https://vignette.wikia.nocookie.net/americanhorrorstory/images/8/8b/Fx-tv-channel-logo.jpg/revision/latest?cb=20130116101957&path-prefix=es'
+        },
+        {
+            id:34,
+            nombre:'espn premium',
+            link:'https://tv-libre.com/html/fl/?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE',
+            imagen:'https://th.bing.com/th/id/R.6723ea67f1d619e7ab1c90ff0d3a5bda?rik=3Zu5PMVnFrSd0w&pid=ImgRaw&r=0'
+
         }
 
     ]
