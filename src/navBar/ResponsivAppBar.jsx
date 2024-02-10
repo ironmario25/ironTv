@@ -31,7 +31,8 @@ function ResponsiveAppBar() {
     setAnchorElNav(null);
   };
 
-  const handleCloseUserMenu = () => {
+  const handleCloseUserMenu = (e) => {
+    console.log(e.target.id);
     setAnchorElUser(null);
   };
 
@@ -149,7 +150,7 @@ function ResponsiveAppBar() {
             >
               {settings.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+                  <Typography id={setting} textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
             </Menu>

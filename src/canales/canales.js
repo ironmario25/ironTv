@@ -56,7 +56,8 @@ const canales = () => {
         {
             id: 18,
             nombre: 'tnt sports',
-            link: 'https://flow.fullbed.rest/cvatt.html?get=VE5UX1Nwb3J0c19IRA',
+           // link: 'https://flow.fullbed.rest/cvatt.html?get=VE5UX1Nwb3J0c19IRA',
+            link:'https://tv-libre.com/html/fl/?get=VE5UX1Nwb3J0c19IRA',
             imagen: 'https://www.digitaltveurope.com/files/2023/02/1391584_tntsportslogo_606179.jpg'
         },
         {
@@ -157,7 +158,7 @@ const canales = () => {
             link:'https://tv-libre.com/html/fl/?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE',
             imagen:'https://th.bing.com/th/id/R.6723ea67f1d619e7ab1c90ff0d3a5bda?rik=3Zu5PMVnFrSd0w&pid=ImgRaw&r=0'
 
-        }
+        },
 
     ]
     return vectorCanales;
