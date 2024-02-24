@@ -159,6 +159,18 @@ const canales = () => {
             imagen:'https://th.bing.com/th/id/R.6723ea67f1d619e7ab1c90ff0d3a5bda?rik=3Zu5PMVnFrSd0w&pid=ImgRaw&r=0'
 
         },
+        {
+            id:35,
+            nombre:'espn premium 2',
+            link:'https://vercanalesonline.com/embed/cv.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1',
+            imagen:'https://th.bing.com/th/id/OIP.xEg0eTMRqHdn_qLo4Jk8OwHaHa?rs=1&pid=ImgDetMain'
+
+        },
+        {
+            id:36,
+            nombre:'tnt sports 2',
+            link:'//vercanalesonline.com/embed/cv.html?get=VE5UX1Nwb3J0c19IRA',
+            imagen:'https://insports.lv/image/cache/catalog/INSPORTS%20LOGO-998x510.png'},
 
     ]
     return vectorCanales;
