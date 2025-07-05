@@ -5,7 +5,7 @@ const canales = () => {
         {
             id:1,
             nombre:'black sabbath',
-            link:'//vercanalesonline.com/embed/cv.html?get=VE5UX1Nwb3J0c19IRA',
+            link:'https://player.kick.com/0zzymetal666',
             imagen:'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frotacult.com.br%2Fwp-content%2Fuploads%2F2017%2F12%2FBS.jpg&f=1&nofb=1&ipt=b9e592b5eaa6e6f98a6c05b1ec5827756352eac568a48b75e0359a8f814eba75',
         },
         {
