@@ -4,8 +4,8 @@ const canales = () => {
     const vectorCanales = [
         {
             id:1,
-            nombre:'black sabbath',
-            link:'https://ryderjet.com/embed/668ci9voq10e',
+            nombre:'depredador cazador de asesinos',
+            link:'https://ghbrisk.com/e/b9zolro7l3vv',
             imagen:'https://revistaq.mx/wp-content/uploads/2025/04/EQWESDAWQ12312.jpg',
         },
         {
