@@ -5,7 +5,7 @@ const canales = () => {
         {
             id:1,
             nombre:'depredador cazador de asesinos',
-            link:'https://ghbrisk.com/e/b9zolro7l3vv',
+            link:'https://26efp.com/bkg/wt71lzamtdin?ref=embed69.org',
             imagen:'https://revistaq.mx/wp-content/uploads/2025/04/EQWESDAWQ12312.jpg',
         },
         {
