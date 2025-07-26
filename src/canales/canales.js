@@ -5,7 +5,7 @@ const canales = () => {
         {
             id:1,
             nombre:'depredador cazador de asesinos',
-            link:'https://listeamed.net/e/b4ZJx2rLAnVx2P3',
+            link:'https://www.tokyvideo.com/embed/741710',
             imagen:'https://revistaq.mx/wp-content/uploads/2025/04/EQWESDAWQ12312.jpg',
         },
         {
